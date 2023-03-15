@@ -1,4 +1,1 @@
-
-print("hello")
-
-input
+print("this a movie")
