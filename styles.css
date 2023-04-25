@@ -1,3 +1,53 @@
-body{
-    background-color: red;
+body {
+    background-color: black;
+    font-size: 5rem;
+    color: #fff;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.home {
+    padding: 13% 20% 10%;
+}
+
+.details {
+    margin-bottom: 30px;
+    color: red;
+}
+
+/* about section */
+
+#about::before {
+    content: "Hello";
+    display: inline-block;
+    color: #fff;
+}
+
+#about:hover::before{
+    content: "About";
+}
+
+/* work section */
+
+#work::before {
+    content: "I'am";
+    font-family: 'Ysabeau', sans-serif;
+    font-weight: bold;
+    display: inline-block;
+}
+
+#work:hover::before{
+    content: "work";
+}
+
+
+/* Contact section */
+
+#contact::before {
+    font-family: 'Shadows Into Light', cursive;
+    content: "Kaleem";
+    display: inline-block;
+}
+
+#contact:hover::before{
+    content: "contact";
 }
