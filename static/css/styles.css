@@ -5,13 +5,19 @@ body {
     font-family: 'Ysabeau', sans-serif;
 }
 
-.home {
+p {
+    padding-top: 13%;
+    padding-left: 20%;
+}
+
+.home{
     padding: 13% 20% 10%;
 }
 
 .details {
     margin-bottom: 30px;
     color: red;
+    font-size: 6rem;
 }
 
 /* about section */
